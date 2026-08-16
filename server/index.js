@@ -29,6 +29,7 @@ app.use(cors({
     'http://tripsplit.192.168.0.196.nip.io:5174',
     'http://tripsplit.192.168.0.196.nip.io:5173',
     'https://3qg70ft1-5174.inc1.devtunnels.ms',
+    'https://trip-expense-manager-ten.vercel.app',
   ],
   credentials: true,
 }));
