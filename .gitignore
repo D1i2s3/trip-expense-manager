@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build output
+client/dist/
+dist/
+
+# Environment variables & secrets (CRITICAL FOR SECURITY)
+.env
+server/.env
+client/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
